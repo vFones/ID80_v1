@@ -4,7 +4,7 @@
 
 A 75% hotswap keyboard with Durock V2 Stabilizer, Glorious Panda + Zealios V2 67G.
 
-This is repository is a fork from [QMK](https://github.com/qmk/qmk_firmware), just used to backup my QMK firmware with custom RGB colors/Keymaps/Macros.
+This repository is a fork from [QMK](https://github.com/qmk/qmk_firmware), just used to backup my QMK firmware with custom RGB colors/Keymaps/Macros.
 * VIA support enabled
 * NKRO ON
 * 1000Hz polling rate
