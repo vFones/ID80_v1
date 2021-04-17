@@ -1,6 +1,6 @@
 # IDOBAO ID80
 
-[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1618514380/video_to_markdown/images/video--a8685df35ad0053d2691cb3f15b74a58-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://i.imgur.com/r1yVApm.mp4 "")
+![ID80v1 in action](https://i.imgur.com/8Ct49LW.gif)
 
 A 75% hotswap keyboard with Durock V2 Stabilizer, Glorious Panda + Zealios V2 67G.
 
