@@ -30,5 +30,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define QMK_KEYS_PER_SCAN 12
 #define FORCE_NKRO
 #define RGBLIGHT_LAYERS
-#define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF
 #define TAPPING_TOGGLE 5

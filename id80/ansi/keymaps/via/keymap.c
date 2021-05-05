@@ -40,6 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+
     switch (keycode) {
         case M_WINRIGHTDESK:
             if (record->event.pressed) {
@@ -80,12 +81,13 @@ const rgblight_segment_t* const PROGMEM my_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
     my_layer1_layer
 );
 
+const uint8_t RGBLED_RAINBOW_SWIRL_INTERVALS[] PROGMEM = {100, 50, 20};
+
 void keyboard_post_init_user(void) {
     // Enable the LED layers
     rgblight_layers = my_rgb_layers;
     rgblight_enable();
-	rgblight_sethsv(0,255,255);
-	rgblight_mode(13);
+	rgblight_mode(RGBLIGHT_MODE_RAINBOW_SWIRL);
 };
 
 bool led_update_user(led_t led_state) {
