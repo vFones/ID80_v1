@@ -10,12 +10,13 @@ This repository is a fork from [QMK](https://github.com/qmk/qmk_firmware), just 
 * 1000Hz polling rate
 
 ## Usage:
-Before compiling import files under id80 in [qmk_firmware](https://github.com/qmk/qmk_firmware)/keyboards/ID80 and use QMK MSYS under Windows:
+Before compiling import files under id80 in [qmk_firmware](https://github.com/qmk/qmk_firmware)/keyboards/ID80 and use [QMK MSYS](https://msys.qmk.fm/).
+Under Windows:
+    make git-submodule #ft only
+    qmk compile -kb id80/ansi -km via
 
-    qmk compile -kb ID80/ansi -km via
 
-
-Flash with QMK Toolbox. Press TT(1) (near F12 and Insert) + ESC to enter flash mode.
+Flash with [QMK Toolbox](https://github.com/qmk/qmk_toolbox). Press TT(1) (between F12 and Insert) + ESC to enter flash mode.
 
 ## ANSI support:
 
